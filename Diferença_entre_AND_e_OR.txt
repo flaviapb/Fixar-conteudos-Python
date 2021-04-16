@@ -1,0 +1,37 @@
+Quando usar And?
+
+    --> Se as duas opções forem verdadeiras, você usa and:
+       --> Vamos testar:
+                Testar se tem 18 anos ou mais
+                Testar se tem 65 ou menos
+
+            Para votar, cada um dos testes deve ser TRUE.
+
+idade =int(input("Digite sua idade: "))
+
+if idade >=18 and idade <=65:               
+    print("Você é obrigado a votar!")
+else:
+    print("Você não é obrigado a votar")
+
+    --> No caso, vc é obrigado a ser os dois, para ser obrigado, e só precisa ser um dois dois para não ser obrigado.
+
+Quando usar o Or?
+
+--> Se uma das duas opções forem verdadeiras, você usa Or:
+       --> Vamos testar:
+
+            --> Para ter acesso a fila de prioridade, você deve ser idoso, gestante ou cadeirante. Escreva um programa que pergunta a situação do usuário (se é idoso, se é gestante, se é cadeirante ou nenhum destes) e diga se ele pode ter acesso a fila prioridade ou não.
+
+        print("Digite 1 se vc é idoso")
+        print("Digite 2 se vc é gestante")
+        print("Digite 3 se vc é cadeirante")
+
+        opcao = int(input("Digite sua opção: "))
+
+        if opcao == 1 or opcao == 2 or opcao == 3:
+            print("Pode entrar, você é prioridade")
+        else:
+            print("Espere mais um pouco")
+        
+--> No caso, se você for umas das três opções já é considerado prioridade, não precisa fazer parte das 3. 
