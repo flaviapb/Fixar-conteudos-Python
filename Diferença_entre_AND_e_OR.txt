@@ -1,3 +1,6 @@
+                                    Explicando a diferença entre ANd e Or:
+
+
 Quando usar And?
 
     --> Se as duas opções forem verdadeiras, você usa and:
